@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TMDB Test</title>
+
+    <!-- Default Styles (DO NOT TOUCH) -->
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/angular-ui-select/dist/select.min.css">
+    <link rel="stylesheet" type="text/css" href="common/styles/app.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="navbar nav">
+        <div class="container-fluid">
+            <div>
+                <a href="#/" title="Home">TMDB Test</a>
+            </div>
+            <div class="pull-right">
+                <search></search>
+            </div>
+        </div>
+    </div>
+    <div class="contain">
+        <!-- BEGIN PAGE CONTENT -->
+        <div class="content">
+            <div>
+                <ng-view></ng-view>
+            </div>
+        </div>
+        <!-- END PAGE CONTENT -->
+    </div>
+</div>
+
+<!-- Default JS (DO NOT TOUCH) -->
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+<script src="/bower_components/angular-route/angular-route.min.js"></script>
+<script src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="/bower_components/angular-ui-select/dist/select.min.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

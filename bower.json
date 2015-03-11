@@ -1,0 +1,23 @@
+{
+  "name": "TMDB",
+  "homepage": "https://github.com/tecnowilliam/moviedb",
+  "main": "src/main/",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-animate": "~1.4.0",
+    "angular-resource": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-sanitize": "~1.4.0",
+    "bootstrap": "~3.3.2",
+    "angular-bootstrap": "~0.12.1",
+    "angular-ui-select": "~0.11.1",
+    "themoviedb-javascript-library": "git@github.com:cavestri/themoviedb-javascript-library.git"
+  },
+  "resolutions": {
+    "angular": "~1.4.0"
+  }
+}
